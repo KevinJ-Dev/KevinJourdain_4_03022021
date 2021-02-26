@@ -653,6 +653,10 @@ a[data-lightbox]:hover img {
   opacity: 0.4;
 }
 
+.tc-orange {
+  color: #f3976c !important;
+}
+
 .next-lightbox {
   padding: 6px 8px 1px 13px;
   right: 25px;
@@ -711,7 +715,7 @@ a {
 }
 
 p {
-  font-size: 11px;
+  font-size: 15px;
 }
 
 .tight-width-whitespace {
@@ -787,7 +791,7 @@ h4 {
 }
 
 .black-background {
-  background-color: rgba(165, 147, 99, 0.7);
+  background-color: rgba(100, 100, 100, 0.815);
   padding: 40px 40px 40px 40px;
 }
 
