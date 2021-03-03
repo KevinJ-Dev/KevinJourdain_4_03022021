@@ -577,6 +577,65 @@ button {
   box-shadow: none;
 }
 
+/* Formulaire contact */
+.bloc-form {
+  display: flex;
+  padding: 50px;
+}
+
+.contact-form {
+  margin: auto;
+  width: 85%;
+  max-width: 600px;
+  background: #f1f1f1;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.contact-form h2 {
+  margin-top: 0;
+  font-weight: 200;
+}
+
+.form-group {
+  border: 1px solid gray;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+}
+
+.form-group label {
+  display: block;
+  text-align: left;
+  font-size: 15px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  border: none;
+  background: none;
+  outline: none;
+  font-size: 14px;
+  margin-top: 6px;
+}
+
+.btn-form {
+  display: inline-block;
+  background: #f3976c;
+  padding: 14px 0;
+  color: white;
+  text-transform: uppercase;
+  cursor: pointer;
+  margin-top: 8px;
+  width: 100%;
+  border: 1px solid transparent;
+  border-radius: 5px;
+}
+/**/
+
 .scrollToTop {
   width: 40px;
   height: 40px;
