@@ -567,6 +567,15 @@ button {
   list-style: none;
 }
 
+.list-inline {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.copyright {
+  text-align: center;
+}
+
 .text-title {
   background-color: #f3976c;
   text-align: center;
@@ -634,6 +643,54 @@ button {
   border: 1px solid transparent;
   border-radius: 5px;
 }
+/**/
+
+/* submenu styles */
+.submenu {
+  left: 0;
+  max-height: 0;
+  position: absolute;
+  top: 100%;
+  z-index: 0;
+  -webkit-perspective: 400px;
+  -moz-perspective: 400px;
+  -ms-perspective: 400px;
+  -o-perspective: 400px;
+  perspective: 400px;
+}
+.submenu li {
+  opacity: 0;
+  -webkit-transform: rotateY(90deg);
+  -moz-transform: rotateY(90deg);
+  -ms-transform: rotateY(90deg);
+  -o-transform: rotateY(90deg);
+  transform: rotateY(90deg);
+  -webkit-transition: opacity 0.4s, -webkit-transform 0.5s;
+  -moz-transition: opacity 0.4s, -moz-transform 0.5s;
+  -ms-transition: opacity 0.4s, -ms-transform 0.5s;
+  -o-transition: opacity 0.4s, -o-transform 0.5s;
+  transition: opacity 0.4s, transform 0.5s;
+}
+.menu .submenu li:hover a {
+  border-left: 3px solid #454545;
+  border-radius: 0;
+  color: #ffffff;
+}
+.menu > li:hover .submenu,
+.menu > li:focus .submenu {
+  max-height: 2000px;
+  z-index: 10;
+}
+.menu > li:hover .submenu li,
+.menu > li:focus .submenu li {
+  opacity: 1;
+  -webkit-transform: none;
+  -moz-transform: none;
+  -ms-transform: none;
+  -o-transform: none;
+  transform: none;
+}
+
 /**/
 
 .scrollToTop {
