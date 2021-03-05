@@ -24,7 +24,7 @@ a:hover {
   bottom: 0;
   width: 100%;
   z-index: 100000;
-  background: #ffffff url("img/pageload-spinner.gif") no-repeat center center;
+  background: url("img/pageload-spinner.gif") no-repeat center center;
 }
 
 /* Banner contact */
@@ -43,13 +43,11 @@ a:hover {
 .bloc-banner-contact-title {
   font-family: "helvetica";
   font-size: 2.3em;
-  color: #ffffff;
 }
 
 .bloc-banner-contact-paragraphe {
   font-family: "helvetica";
   font-size: 1em;
-  color: #ffffff;
 }
 
 .bloc {
@@ -635,7 +633,7 @@ button {
   display: inline-block;
   background: #f3976c;
   padding: 14px 0;
-  color: white;
+  color: #000000;
   text-transform: uppercase;
   cursor: pointer;
   margin-top: 8px;
@@ -674,7 +672,6 @@ button {
 .menu .submenu li:hover a {
   border-left: 3px solid #454545;
   border-radius: 0;
-  color: #ffffff;
 }
 .menu > li:hover .submenu,
 .menu > li:focus .submenu {
@@ -839,7 +836,7 @@ label,
 a {
   font-family: "helvetica";
   font-weight: 400;
-  color: #575757 !important;
+  color: #000000 !important;
 }
 
 .container {
@@ -880,7 +877,7 @@ p {
 
 .cta-hero {
   margin-top: 22px;
-  color: #ffffff !important;
+  color: #000000 !important;
   text-transform: uppercase;
   padding: 12px 28px 12px 28px;
   font-size: 16px;
@@ -925,7 +922,11 @@ h4 {
 }
 
 .white {
-  color: #ffffff !important;
+  color: #000000 !important;
+}
+
+.black {
+  font-size: 2rem;
 }
 
 .portfolio-thumb {
@@ -962,24 +963,26 @@ h4 {
 
 .tc-white {
   color: #f3976c !important;
+  background-color: #303030;
+  border-radius: 10px;
 }
 
 .btn-atomic-tangerine {
   background: #f3976c;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .btn-atomic-tangerine:hover {
   background: #c27956 !important;
-  color: #ffffff !important;
+  color: #000000 !important;
 }
 
 .ltc-white {
-  color: #ffffff !important;
+  color: #f3976c !important;
 }
 
 .ltc-white:hover {
-  color: #cccccc !important;
+  color: #f3976c !important;
 }
 
 .ltc-atomic-tangerine {
